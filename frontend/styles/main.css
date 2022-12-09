@@ -1,0 +1,523 @@
+/* Bikestore 1 */
+/* Header */
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.nav-item .nav-link.nav-link.active{
+    font-weight: 600;
+    color: #FCBB3A !important;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: #FCBB3A !important;
+}
+/* Header Tutup */
+
+/* Hero Section */
+.hero-section {
+    margin-top: 45px;
+}
+.hero-section h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 52px;
+}
+
+.hero-section p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.hero-section .btn-cta {
+    margin-top: 80px;
+}
+
+.hero-section .btn-cta img {
+    width: 67px;
+}
+
+.hero-section .btn{
+    border-radius: 0px 18px 18px 0px;
+    margin-left: 15px;
+}
+/* Akhir Hero Section */
+
+/* Categories */
+.categories{
+    margin-top: 46px;
+}
+
+.tag{
+    background-color: #FCBB3A;
+    border-radius: 0px 28px 0px 0px;
+    padding: .45rem 2rem;
+    min-height: 30px;
+    left: 15px;
+    z-index: 3;
+    bottom: 0;
+    position: absolute;
+}
+
+.tag span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+
+.categories-thumbnail {
+    height: 466px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.categories-img{
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: all 0.3s ease;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1.1);
+}
+
+.categories-thumbnail-small {
+    height: 223px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.categories-thumbnail-small:hover .categories-img {
+    transform: scale(1.1);
+}
+
+/* Akhir Categories */
+
+/* Popular Product */
+.product{
+    background: rgba(196, 196, 196, 0.15);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.component-product {
+    background: white;
+    border-radius: 5px;
+    border: #000000;
+    padding-bottom: 15px;
+
+    margin-bottom: 60px;
+    transition: all 0.25s ease-in-out;
+}
+
+.component-product:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.product-image {
+    padding: 0.5px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #e9e1e1;
+}
+
+.product-text {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Poppins;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.product-price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    color: #f77d03;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Akhir Popular Product */
+
+/* Bikestore */
+.bikestore {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+.bikestore .btn-cta {
+    margin-top: 108px;
+}
+/* Akhir Bikestore */
+
+/* Awal Address */
+
+.address h5 {
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    text-align: width;
+}
+.address {
+    background: rgba(240, 238, 238, 0.69);
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.address p {
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+ 
+    color: #9b9494;
+    text-align: center;
+}
+
+/* Akhir Address */
+
+/* Footer */
+.footer {
+    text-align: center !important;
+    background: rgba(3, 6, 65, 0.9);
+}
+
+.footer p {
+    font-size:25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* Footer Tutup */
+/* Bikestore 1 Tutup */
+
+/* Bikestore 2 */
+.xzoom:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.xzoom-thumbs {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.xactive {
+    box-shadow: 0px 0px 3px 0px rgb(180, 186, 189);
+    border: 1px solid #e8ecee;
+}
+
+.xzoom-gallery {
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+
+}
+.xzoom-gallery:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+/* Description */
+.bike-heading {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.bike-heading .card {
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;
+}
+
+.bike-heading .booking-title {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.bike-heading .booking-price {
+    font-weight: 500;
+    font-size: 36px;
+    color: #18AE30;
+}
+
+.bike-heading .subtitle {
+    color: #152C5B;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.bike-heading p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170%;
+    color: #B0B0B0;
+}
+
+.bike-heading .input-group .form-control {
+    border-radius: 50;
+    background-color: #F5F6F8;
+    text-align: center;
+}
+
+.minus {
+    background-color: #18AE30;
+}
+
+.minus1 {
+    background-color: rgba(251, 41, 13, 0.9);
+    border-radius: 5px;
+}
+
+.plus {
+    background-color: #18AE30;
+}
+
+.btn-booking {
+    background: #26239C;
+}
+/* Bikestore 2 Tutup */
+
+
+/* Bikestore 3 */
+/* Booking Information */
+.booking-information {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    text-align: center;
+
+    color: #0D0B6C;
+}
+
+.booking p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+/* Booking Information Tutup */
+
+/* Data */
+.form-booking label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.form-booking .input-group .form-control {
+    border: 0;
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 5px;
+    padding-top: 0.575rem;
+    padding-bottom: 0.575rem;
+    margin-bottom: 25px;
+}
+/* Data Tutup */
+
+
+/* Button Booking */
+.button {
+    margin-top: 150px;
+    margin-bottom: 180px;
+}
+
+.btn-continue-booking {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: #000000;
+
+    background: #FCBB3A;
+    border-radius: 5px;
+}
+
+.btn-continue-booking:hover {
+    color: #FFFFFF !important;
+}
+
+.btn-cancel-booking {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: rgba(0, 0, 0, 0.55);
+
+    opacity: 0.5;
+
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 5px;
+}
+
+.btn-cancel-booking:hover {
+    color: #FFFFFF !important;
+}
+/* Button Booking Tutup */
+/* Bikestore 3 Tutup */
+
+
+/* Bikestore 4 */
+.bca {
+    position: absolute;
+    left: 140px;
+    top: 160px;
+    font-family: 'Poppins';
+
+    font-style: normal;
+    color: #000000;
+}
+
+.mandiri {
+    position: absolute;
+    left: 140px;
+    top: 260px;
+    font-family: 'Poppins';
+
+    font-style: normal;
+    color: #000000;
+
+}
+
+.button-confirm-payment {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.btn-confirm-payment {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+
+    color: #000000;
+
+    background: #FCBB3A;
+    border-radius: 5px;     
+}
+
+.btn-cancel-payment:hover {
+    color: #FFFFFF !important;
+}
+
+.btn-cancel-payment {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 36px;
+
+    color: #000000;
+
+    opacity: 0.5;
+    background: rgba(3, 13, 255, 0.27);
+    border-radius: 5px;
+}
+
+.btn-confirm-payment:hover {
+    color: #FFFFFF !important;
+}
+/* Bikestore 4 Tutup */
+
+
+
+/* Bikestore 5 */
+.order-finish {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 54px;
+
+    color: #0D0B6C;
+}
+
+.finish {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.button-back-to-home {
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.btn-back-home {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+
+    color: #000000;
+
+    background: rgba(243, 151, 12, 0.85);
+    border-radius: 5px;
+}
+
+.btn-back-home:hover {
+    color: #FFFFFF !important; 
+}
+/* Bikestore 5 Tutup */
